@@ -10,10 +10,6 @@ puts "Where would you like to go?"
 input = gets.strip
 index = input_to_index(input)
 
-def move(array, index, val = 'X')
-  array[index] = val
-end
-
 move(board, index)
 
 display_board(board)
